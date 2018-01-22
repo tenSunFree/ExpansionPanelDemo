@@ -11,9 +11,7 @@ https://github.com/florent37/ExpansionPanel
                               
 預覽
 --------
-![image](https://i.imgur.com/sHTq5TX.png)                                      
+![image](https://i.imgur.com/pwx5Bh4.png)                                      
 
-![image](https://i.imgur.com/BpCzC6k.png)                                      
-
-![image](https://i.imgur.com/bRsXBKl.png)
+![image](https://i.imgur.com/yTmg5h1.png)
 
