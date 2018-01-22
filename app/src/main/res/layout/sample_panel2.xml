@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:id="@+id/dynamicLayoutExpansionHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:expansion_headerIndicator="@id/headerIndicator"
+        app:expansion_layout="@id/expansionLayout4"
+        app:expansion_toggleOnClick="true">
+
+        <RelativeLayout
+            android:id="@+id/expansionLayoutRelativeLayout2"
+            android:background="#f1e0d6"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:text="韓國"
+                android:textSize="24dp"
+                android:textColor="#583e2e" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/headerIndicator"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+        </RelativeLayout>
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansionLayout4"
+        app:expansion_expanded="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+        </LinearLayout>
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:visibility="gone"
+        android:id="@+id/dynamicLayoutExpansionHeader4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:expansion_headerIndicator="@id/headerIndicator"
+        app:expansion_layout="@id/expansionLayout5"
+        app:expansion_toggleOnClick="true">
+
+        <RelativeLayout
+            android:background="#f1e0d6"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:text="北村韓屋村"
+                android:textSize="18dp"
+                android:textColor="#e0583e2e" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/headerIndicator"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp"
+                tools:ignore="DuplicateIds"/>
+        </RelativeLayout>
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansionLayout5"
+        app:expansion_expanded="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:background="#f1e0d6"
+            android:id="@+id/container2"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                app:cardCornerRadius="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="240dp"
+                android:layout_height="135dp">
+
+                <ImageView
+                    android:src="@drawable/korea_bukchon_hanongmaeul2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:visibility="gone"
+        android:id="@+id/dynamicLayoutExpansionHeader6"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:expansion_headerIndicator="@id/headerIndicator"
+        app:expansion_layout="@id/expansionLayout7"
+        app:expansion_toggleOnClick="true">
+
+        <RelativeLayout
+            android:background="#f1e0d6"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:text="景福宮"
+                android:textSize="18dp"
+                android:textColor="#e0583e2e" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/headerIndicator"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp"
+                tools:ignore="DuplicateIds"/>
+        </RelativeLayout>
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansionLayout7"
+        app:expansion_expanded="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:background="#f1e0d6"
+            android:id="@+id/container4"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                app:cardCornerRadius="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="240dp"
+                android:layout_height="135dp">
+
+                <ImageView
+                    android:src="@drawable/korea_gyeongbokgung2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:visibility="gone"
+        android:id="@+id/dynamicLayoutExpansionHeader5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:expansion_headerIndicator="@id/headerIndicator"
+        app:expansion_layout="@id/expansionLayout6"
+        app:expansion_toggleOnClick="true">
+
+        <RelativeLayout
+            android:background="#f1e0d6"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="N首爾塔"
+                android:textSize="18dp"
+                android:textColor="#e0583e2e" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/headerIndicator"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp"
+                tools:ignore="DuplicateIds"/>
+        </RelativeLayout>
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansionLayout6"
+        app:expansion_expanded="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:background="#f1e0d6"
+            android:id="@+id/container3"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                app:cardCornerRadius="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="240dp"
+                android:layout_height="135dp">
+
+                <ImageView
+                    android:src="@drawable/korea_n_seoul_tower2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+</LinearLayout>
